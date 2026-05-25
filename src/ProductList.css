@@ -171,13 +171,14 @@ body {
 }
 .cart_quantity_count{
     position: absolute;
-    top: 0px;
-    right: 0px;
+    top: 20px;
+    right: 20px;
     min-width: 24px;
     height: 24px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    cursor: default;
     background-color: #ffffff;
     color: #4CAF50;
     font-size: 14px;
@@ -185,6 +186,7 @@ body {
     border-radius: 50%;
     border: 2px solid #4CAF50;
     box-shadow: 0 0 6px rgba(0, 0, 0, 0.15);
+    z-index: 10;
 }
 .plantname_heading{
    display: flex;
