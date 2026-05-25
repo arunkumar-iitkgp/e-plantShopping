@@ -178,7 +178,7 @@ body {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    cursor: default;
+    cursor: pointer;
     background-color: #ffffff;
     color: #4CAF50;
     font-size: 14px;
